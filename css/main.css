@@ -1,0 +1,84 @@
+/* 初始化設定 */
+
+* {
+    font-family: 'Kaushan Script', 'Sacramento', 'Kalam', cursive;
+}
+
+
+/* 客製化設定 */
+
+.cust-navbar {
+    position: relative;
+    z-index: 3;
+}
+
+.cust-container {
+    position: relative;
+    z-index: 2;
+}
+
+#particles-js {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    z-index: 1;
+    /* Animation */
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-name: gradients;
+}
+
+.apps-icons {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-image: url(/images/icons/google.png);
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.apps-icons-gmail {
+    background-position: 0 -1922px;
+}
+
+.apps-icons-map {
+    background-position: 0 -2288px;
+}
+
+.apps-icons-drive {
+    background-position: 0 -2361px;
+}
+
+.apps-icons-translate {
+    background-position: 0 -2378px;
+}
+
+.apps-icons-youtube {
+    background-position: 0 -2435px;
+}
+
+
+/* Animation Setting */
+
+@keyframes gradients {
+    0% {
+        background: lightpink;
+    }
+    25% {
+        background: lightblue;
+    }
+    50% {
+        background: lightgoldenrodyellow;
+    }
+    75% {
+        background: lightgreen;
+    }
+    90% {
+        background: plum;
+    }
+    100% {
+        background: lightpink;
+    }
+}
