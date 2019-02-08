@@ -66,18 +66,23 @@
     0% {
         background: lightpink;
     }
+
     25% {
         background: lightblue;
     }
+
     50% {
         background: lightgoldenrodyellow;
     }
+
     75% {
         background: lightgreen;
     }
+
     90% {
         background: plum;
     }
+
     100% {
         background: lightpink;
     }
